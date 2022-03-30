@@ -467,7 +467,7 @@ denoising_data = benchmark['denoising']
 
 
 models_csv = ROOT['benchmark']['models.csv']
-model_names = [f'0_{t[0]}_iteration_4000_sigma_25_skip_{t[1]}' for t in models_csv]
+model_names = [f'{t[0]}_{t[1]}' for t in models_csv]
 model_names_hashed = {name: False for name in model_names}
 num_models = len(model_names)
 
