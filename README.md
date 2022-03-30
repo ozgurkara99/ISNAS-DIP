@@ -1,6 +1,16 @@
-# ISNAS-DIP: Image-Specific Neural Architecture Search for Deep Image Prior (CVPR 2022)
-Official code implementation for [ISNAS-DIP: Image-Specific Neural Architecture Search for Deep Image Prior](https://arxiv.org/abs/2111.15362) [CVPR 2022]  
-Dataset can be found here: https://zenodo.org/record/6351599#.YkG1xN9Bzct  
+# ISNAS-DIP: Image-Specific Neural Architecture Search for Deep Image Prior (CVPR 2022)  
+
+#### Metin Ersin Arican*, Ozgur Kara*, Gustav Bredell, Ender Konukoglu  
+
+#### [\[Paper\]](https://arxiv.org/abs/2111.15362) [\[Dataset\]](https://zenodo.org/record/6351599#.YkG1xN9Bzct)  
+
+---
+
+## News
+
+This repo is the official implementation of ISNAS-DIP. 
+
+---
 
 ### Overview
 
