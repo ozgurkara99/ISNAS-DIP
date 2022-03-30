@@ -18,6 +18,8 @@ This repo is the official implementation of ISNAS-DIP.
 
 Recent works show that convolutional neural network (CNN) architectures have a spectral bias towards lower frequencies, which has been leveraged for various image restoration tasks in the Deep Image Prior (DIP) framework. The benefit of the inductive bias the network imposes in the DIP framework depends on the architecture. Therefore, researchers have studied how to automate the search to determine the best-performing model. However, common neural architecture search (NAS) techniques are resource and time-intensive. Moreover, best-performing models are determined for a whole dataset of images instead of for each image independently, which would be prohibitively expensive. In this work, we first show that optimal neural architectures in the DIP framework are image-dependent. Leveraging this insight, we then propose an image-specific NAS strategy for the DIP framework that requires substantially less training than typical NAS approaches, effectively enabling image-specific NAS. We justify the proposed strategy's effectiveness by (1) demonstrating its performance on a NAS Dataset for DIP that includes 522 models from a particular search space (2) conducting extensive experiments on image denoising, inpainting, and super-resolution tasks. Our experiments show that image-specific metrics can reduce the search space to a small cohort of models, of which the best model outperforms current NAS approaches for image restoration. 
 
+## Getting Started
+
 ### Installation
 1- Clone the repo:  
 ```
@@ -46,3 +48,7 @@ If you use our [paper](https://arxiv.org/abs/2111.15362) or [dataset](https://ze
   year={2022}
 }
 ```
+
+## Acknowledgements  
+
+NASDIP and DIP implementations borrow some codes from [Chen et. al](https://github.com/YunChunChen/NAS-DIP-pytorch) and [Ulyanov et. al](https://github.com/DmitryUlyanov/deep-image-prior).
