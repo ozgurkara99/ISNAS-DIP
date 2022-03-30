@@ -12,13 +12,11 @@ Recent works show that convolutional neural network (CNN) architectures have a s
 1- Clone the repo:  
 ```
 git clone https://github.com/ozgurkara99/ISNAS-DIP.git
-}
 ```  
 2- Create a conda (suggested) environment and install the required packages:  
 ```
 conda create -n isnasdip python=3.8
 pip install -r requirements.txt
-}
 ```  
 3- If any of the packages listed in requirements.txt is failed to installed, install it manually, remove it from the txt file and rerun the above command.  
 4- Go to utils/paths.py and change the variable PROJECT_FOLDER to path of the current directory.  
