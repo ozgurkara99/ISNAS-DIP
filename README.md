@@ -51,4 +51,4 @@ If you use our [paper](https://arxiv.org/abs/2111.15362) or [dataset](https://ze
 
 ## Acknowledgements  
 
-NASDIP and DIP implementations borrow some codes from [Chen et. al](https://github.com/YunChunChen/NAS-DIP-pytorch) and [Ulyanov et. al](https://github.com/DmitryUlyanov/deep-image-prior).
+nasdip.py and dip.py scripts borrow some codes from [Chen et. al](https://github.com/YunChunChen/NAS-DIP-pytorch) and [Ulyanov et. al](https://github.com/DmitryUlyanov/deep-image-prior).
