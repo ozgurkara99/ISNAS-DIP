@@ -19,9 +19,6 @@ def convert(img, to=Literal['rgb', 'gray']):
         'gray': convert_gray,
     }
     
-# OZGUR
-# merhaba
-    
     return converter_map[to](img)
 
 def main():
