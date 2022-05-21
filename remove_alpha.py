@@ -10,7 +10,6 @@ from utils.keywords import *
 def convert_rgb(img):
     return img.convert('RGB')
 
-
 def convert_gray(img):
     return img.convert('L')
 
