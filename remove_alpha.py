@@ -11,6 +11,7 @@ def convert_rgb(img):
     return img.convert('RGB')
 
 def bos():
+    #aa
     return pass
 
 def convert_gray(img):
@@ -21,7 +22,7 @@ def convert(img, to=Literal['rgb', 'gray']):
         'rgb': convert_rgb,
         'gray': convert_gray,
     }
-    
+
 # OZGUR
     
     return converter_map[to](img)
