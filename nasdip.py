@@ -8,6 +8,7 @@ import torch.optim as optim
 # torch.backends.cudnn.enabled       = True
 # torch.backends.cudnn.benchmark     = True
 # torch.backends.cudnn.deterministic = True
+#commit merhaba
 
 import utils.basic_utils as bu
 import utils.array_utils as au
