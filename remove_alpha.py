@@ -19,7 +19,6 @@ def convert(img, to=Literal['rgb', 'gray']):
         'rgb': convert_rgb,
         'gray': convert_gray,
     }
-
     
     return converter_map[to](img)
 
