@@ -10,6 +10,9 @@ from utils.keywords import *
 def convert_rgb(img):
     return img.convert('RGB')
 
+def bos():
+    return pass
+
 def convert_gray(img):
     return img.convert('L')
 
@@ -18,7 +21,7 @@ def convert(img, to=Literal['rgb', 'gray']):
         'rgb': convert_rgb,
         'gray': convert_gray,
     }
-# OZGUR IS HERE
+# OZGUR
     
     return converter_map[to](img)
 
