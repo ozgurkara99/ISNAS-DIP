@@ -309,7 +309,7 @@ def dip(
         dir[GRID_PNG].save(grid)
     
     return htr, metric_results, grid
-    
+
 
 def check(
     img_stem: str,

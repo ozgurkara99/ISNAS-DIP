@@ -8,9 +8,7 @@
 eval "$(/itet-stor/aricanm/net_scratch/conda/bin/conda shell.bash hook)"
 
 echo 'activating conda environment'
-conda activate pytcu10
+conda activate ersin
 
 echo "args: $@"
-python -u '/srv/beegfs02/scratch/biwismrschool21/data/NAS-DIP Summer Research/dip.py' "$@"
-
-
+python -u '/usr/bmicnas02/data-biwi-01/eisnas_dip/ISNAS-DIP/dip.py' "$@"
