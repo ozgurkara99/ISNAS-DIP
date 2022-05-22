@@ -343,7 +343,7 @@ def average(obj1: Any, obj2: Any, weight1: float = 0.5, weight2: float = 0.5) ->
     return (obj1*weight1 + obj2*weight2) / (weight1 + weight2)
     
 class UsefullMaps:
-    '''The commenly used maps in the experiments.'''
+    '''The commonly used maps in the experiments.'''
     
     def __init__(self, img_size: Tuple[int, int]):
     
