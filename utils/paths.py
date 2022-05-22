@@ -443,7 +443,7 @@ NUM_HIGH_LR_OUTPUTS = 10
 
 # change this to the path of the current directory
 PROJECT_FOLDER = \
-    '/home/ersin/Documents/machine learning/NAS-DIP Summer Research'
+    '/usr/bmicnas02/data-biwi-01/eisnas_dip/ISNAS-DIP'
 
 
 
