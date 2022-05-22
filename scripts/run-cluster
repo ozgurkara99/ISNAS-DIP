@@ -1,0 +1,10 @@
+#!/bin/bash
+
+num_gpu=$1
+
+shift
+
+for (( c=0; c<"$num_gpu" & c<6; c++ ))
+do  
+    sbatch "$@" --gpu_index "$c" --num_gpu "$num_gpu"
+done

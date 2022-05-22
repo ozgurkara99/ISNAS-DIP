@@ -1,0 +1,14 @@
+#!/bin/bash
+
+trap 'kill $(jobs -p)' EXIT
+
+num=$1
+
+shift
+
+for (( c=0; c<"$num" & c<8; c++ ))
+do  
+    python -u "$@" --gpu_index "$c" --num_gpu "$num" &
+done
+
+wait
