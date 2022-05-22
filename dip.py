@@ -54,7 +54,8 @@ def parse_args():
 
     parser.add_argument('--repeat', default=15, type=int)
     
-    parser.add_argument('--save_out_at', type=str, default=1200)
+    parser.add_argument('--save_out_at', type=str, default='')
+    parser.add_argument('--save_out_every', type=int, default=-1)
 
     args = parser.parse_args()
     return args
@@ -348,8 +349,17 @@ def main():
     
     CHECK = args.check
     
-    SAVE_OUT_AT = args.save_out_at
-    SAVE_OUT_AT = list(map(int, SAVE_OUT_AT.split(',')))
+    SAVE_OUT_EVERY = args.save_out_every
+    if SAVE_OUT_EVERY != -1:
+        SAVE_OUT_AT = list(range(1, NUM_ITER, SAVE_OUT_EVERY))
+    else:
+        SAVE_OUT_AT = args.save_out_at
+
+        if len(SAVE_OUT_EVERY) > 0:
+            SAVE_OUT_AT = list(map(int, SAVE_OUT_AT.split(',')))
+        else:
+            SAVE_OUT_AT = []
+
     REPEAT = args.repeat
     
     
