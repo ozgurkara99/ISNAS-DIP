@@ -2,7 +2,7 @@
 
 #### Metin Ersin Arican*, Ozgur Kara*, Gustav Bredell, Ender Konukoglu  
 
-#### [\[Paper\]](https://arxiv.org/abs/2111.15362v2) [\[Dataset\]](https://zenodo.org/record/6351599#.YkG1xN9Bzct)  
+#### [\[Paper\]](https://arxiv.org/abs/2111.15362v2) [\[Dataset\]](https://zenodo.org/record/6351599#.YkG1xN9Bzct) [\[Presentation\]](https://www.youtube.com/watch?v=vuTeMda-cVo) 
 
 ---
 
